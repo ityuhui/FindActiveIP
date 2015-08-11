@@ -5,7 +5,6 @@ subnet="192.168.122"
 host_start=1
 host_end=254
 ping_command_prefix="ping -c 1 -W 1 "
-inactive_ip_condition="Unreachable"
 threadpool = []
 
 def ping_host(i,ping_command):
